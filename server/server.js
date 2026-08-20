@@ -26,7 +26,11 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '..', 'public', 'index.html'));
 });
 
-// Start Server
-app.listen(PORT, () => {
-  console.log(`Fashnora server running on http://localhost:${PORT}`);
-});
+// Start Server (only if not running on Vercel)
+if (process.env.NODE_ENV !== 'production' || process.env.RENDER) {
+  app.listen(PORT, () => {
+    console.log(`Fashnora server running on http://localhost:${PORT}`);
+  });
+}
+
+module.exports = app;
