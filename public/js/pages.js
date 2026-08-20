@@ -778,6 +778,13 @@ const pages = {
 
             if (orderRes.success) {
               if (paymentMethod === 'Razorpay') {
+                if (orderRes.simulated || !orderRes.razorpay_key_id) {
+                  store.clearCart();
+                  store.showToast('Test Mode: Simulated Razorpay Payment Successful.');
+                  router.navigate(`/track-order?num=${orderRes.order_number}`);
+                  return;
+                }
+
                 // Initialize Razorpay payment overlay
                 const options = {
                   key: orderRes.razorpay_key_id,
