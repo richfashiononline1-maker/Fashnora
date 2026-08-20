@@ -1,0 +1,707 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Fashnora Admin",
+      "email": "admin@fashnora.com",
+      "password_hash": "$2a$10$V33LUuSzCJtjt9buK9G1DO7jH6VpVWSgIspBIXV4amJwA/OFLmNiC",
+      "role": "admin",
+      "phone": "+919999999999",
+      "status": "active",
+      "created_at": "2026-08-19T18:50:39.998Z"
+    },
+    {
+      "id": 2,
+      "name": "Anas Shaikh",
+      "email": "shaiikhanass1801@gmail.com",
+      "password_hash": "$2a$10$IDdgsTyvwC83NXtsxoasA.1JNcGFT4P9qQALfDHjzfRIjhLisDGoG",
+      "role": "customer",
+      "phone": null,
+      "status": "active",
+      "created_at": "2026-08-20T09:24:14.348Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cord Sets",
+      "slug": "women-cord-sets",
+      "parent_id": null,
+      "gender": "women"
+    },
+    {
+      "id": 2,
+      "name": "Suits",
+      "slug": "women-suits",
+      "parent_id": null,
+      "gender": "women"
+    },
+    {
+      "id": 3,
+      "name": "Indo-Western",
+      "slug": "women-indo-western",
+      "parent_id": null,
+      "gender": "women"
+    },
+    {
+      "id": 4,
+      "name": "Kurtis",
+      "slug": "women-kurtis",
+      "parent_id": null,
+      "gender": "women"
+    },
+    {
+      "id": 5,
+      "name": "Gowns",
+      "slug": "women-gowns",
+      "parent_id": null,
+      "gender": "women"
+    },
+    {
+      "id": 6,
+      "name": "Sarees",
+      "slug": "women-sarees",
+      "parent_id": null,
+      "gender": "women"
+    },
+    {
+      "id": 7,
+      "name": "Tops",
+      "slug": "women-tops",
+      "parent_id": null,
+      "gender": "women"
+    },
+    {
+      "id": 8,
+      "name": "Girls",
+      "slug": "kids-girls",
+      "parent_id": null,
+      "gender": "kids"
+    },
+    {
+      "id": 9,
+      "name": "Boys",
+      "slug": "kids-boys",
+      "parent_id": null,
+      "gender": "kids"
+    },
+    {
+      "id": 10,
+      "name": "Western Outfits",
+      "slug": "girls-western",
+      "parent_id": 8,
+      "gender": "kids"
+    },
+    {
+      "id": 11,
+      "name": "Cord Sets",
+      "slug": "girls-cord-sets",
+      "parent_id": 8,
+      "gender": "kids"
+    },
+    {
+      "id": 12,
+      "name": "Traditional Wear",
+      "slug": "girls-traditional",
+      "parent_id": 8,
+      "gender": "kids"
+    },
+    {
+      "id": 13,
+      "name": "Casual Wear",
+      "slug": "girls-casual",
+      "parent_id": 8,
+      "gender": "kids"
+    },
+    {
+      "id": 14,
+      "name": "Western Wear",
+      "slug": "boys-western",
+      "parent_id": 9,
+      "gender": "kids"
+    },
+    {
+      "id": 15,
+      "name": "Traditional Wear",
+      "slug": "boys-traditional",
+      "parent_id": 9,
+      "gender": "kids"
+    },
+    {
+      "id": 16,
+      "name": "Casual Wear",
+      "slug": "boys-casual",
+      "parent_id": 9,
+      "gender": "kids"
+    },
+    {
+      "id": 17,
+      "name": "Party Wear",
+      "slug": "boys-party",
+      "parent_id": 9,
+      "gender": "kids"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Elysian Burgundy Georgette Saree",
+      "slug": "elysian-burgundy-georgette-saree",
+      "sku": "FN-W-SAR-001",
+      "description": "An elegant burgundy georgette saree featuring delicate sequin borders and hand-embellished details. Perfect for wedding guests and celebratory gatherings.",
+      "price": 2599,
+      "mrp": 4999,
+      "discount": 50,
+      "fabric": "Premium Georgette",
+      "occasion": "Festive Wear",
+      "care_instructions": "Dry clean only. Store in a clean muslin cloth.",
+      "stock_quantity": 15,
+      "low_stock_threshold": 5,
+      "is_bestseller": 1,
+      "is_new_arrival": 1,
+      "is_sale": 1,
+      "seo_title": "Elysian Burgundy Georgette Saree | Fashnora",
+      "seo_description": "An elegant burgundy georgette saree featuring delicate sequin borders and hand-embellished details.",
+      "status": "active",
+      "created_at": "2026-08-19T18:50:39.999Z"
+    },
+    {
+      "id": 2,
+      "name": "Ivory Floral Printed Kurti Suit Set",
+      "slug": "ivory-floral-printed-kurti-suit-set",
+      "sku": "FN-W-KRT-002",
+      "description": "A beautiful ivory-colored A-line kurti set accented with floral motifs and matching palazzo trousers, accompanied by a lightweight dupatta.",
+      "price": 1899,
+      "mrp": 2999,
+      "discount": 37,
+      "fabric": "Pure Cotton Lurex",
+      "occasion": "Casual Wear",
+      "care_instructions": "Hand wash separately in cold water with mild detergent.",
+      "stock_quantity": 22,
+      "low_stock_threshold": 5,
+      "is_bestseller": 0,
+      "is_new_arrival": 1,
+      "is_sale": 1,
+      "seo_title": "Ivory Floral Printed Kurti Suit Set | Fashnora",
+      "seo_description": "A beautiful ivory-colored A-line kurti set accented with floral motifs.",
+      "status": "active",
+      "created_at": "2026-08-19T18:50:39.999Z"
+    },
+    {
+      "id": 3,
+      "name": "Champagne Gold Embellished Indo-Western Gown",
+      "slug": "champagne-gold-embellished-indo-western-gown",
+      "sku": "FN-W-GWN-003",
+      "description": "Make a statement at any evening gala with this flowing champagne gold Indo-Western gown decorated with intricate metallic embroidery and beads.",
+      "price": 4500,
+      "mrp": 8999,
+      "discount": 50,
+      "fabric": "Premium Silk & Net",
+      "occasion": "Party Wear",
+      "care_instructions": "Dry clean only.",
+      "stock_quantity": 8,
+      "low_stock_threshold": 5,
+      "is_bestseller": 1,
+      "is_new_arrival": 0,
+      "is_sale": 0,
+      "seo_title": "Champagne Gold Embellished Indo-Western Gown | Fashnora",
+      "seo_description": "Make a statement at any evening gala with this flowing champagne gold Indo-Western gown.",
+      "status": "active",
+      "created_at": "2026-08-19T18:50:39.999Z"
+    },
+    {
+      "id": 4,
+      "name": "Sage Green Linen Casual Co-ord Set",
+      "slug": "sage-green-linen-casual-co-ord-set",
+      "sku": "FN-W-CRD-004",
+      "description": "An easy-breezy co-ord set featuring a button-down linen shirt and high-waisted relaxed-fit trousers. Perfect for weekend outings or office casual days.",
+      "price": 1599,
+      "mrp": 2499,
+      "discount": 36,
+      "fabric": "100% Breathable Linen",
+      "occasion": "Everyday Style",
+      "care_instructions": "Gentle machine wash with like colors.",
+      "stock_quantity": 3,
+      "low_stock_threshold": 5,
+      "is_bestseller": 0,
+      "is_new_arrival": 1,
+      "is_sale": 0,
+      "seo_title": "Sage Green Linen Casual Co-ord Set | Fashnora",
+      "seo_description": "An easy-breezy co-ord set featuring a button-down linen shirt and high-waisted relaxed-fit trousers.",
+      "status": "active",
+      "created_at": "2026-08-19T18:50:39.999Z"
+    },
+    {
+      "id": 5,
+      "name": "Peach Blossom Girls Lehenga Choli",
+      "slug": "peach-blossom-girls-lehenga-choli",
+      "sku": "FN-K-GIR-001",
+      "description": "Let your little girl shine in this vibrant peach-colored lehenga choli set, featuring a soft organza dupatta and traditional gold foil print details.",
+      "price": 2199,
+      "mrp": 3999,
+      "discount": 45,
+      "fabric": "Art Silk and Organza",
+      "occasion": "Festive Wear",
+      "care_instructions": "Dry clean only.",
+      "stock_quantity": 12,
+      "low_stock_threshold": 5,
+      "is_bestseller": 1,
+      "is_new_arrival": 1,
+      "is_sale": 1,
+      "seo_title": "Peach Blossom Girls Lehenga Choli | Fashnora",
+      "seo_description": "Let your little girl shine in this vibrant peach-colored lehenga choli set.",
+      "status": "active",
+      "created_at": "2026-08-19T18:50:39.999Z"
+    },
+    {
+      "id": 6,
+      "name": "Royal Blue Boys Kurta & Nehru Jacket Set",
+      "slug": "royal-blue-boys-kurta-nehru-jacket-set",
+      "sku": "FN-K-BOY-001",
+      "description": "A dapper traditional kurta set for boys, paired with pyjamas and a beautifully printed Nehru jacket.",
+      "price": 1799,
+      "mrp": 2999,
+      "discount": 40,
+      "fabric": "Cotton Silk Blend",
+      "occasion": "Wedding Guest",
+      "care_instructions": "Gentle hand wash separately.",
+      "stock_quantity": 18,
+      "low_stock_threshold": 5,
+      "is_bestseller": 1,
+      "is_new_arrival": 0,
+      "is_sale": 0,
+      "seo_title": "Royal Blue Boys Kurta & Nehru Jacket Set | Fashnora",
+      "seo_description": "A handsome royal blue traditional kurta set for boys, paired with pyjamas and a Nehru jacket.",
+      "status": "active",
+      "created_at": "2026-08-19T18:50:39.999Z"
+    },
+    {
+      "id": 7,
+      "name": "Lilac Blossom Girls Dress",
+      "slug": "lilac-blossom-girls-dress",
+      "sku": "FN-K-GIR-002",
+      "description": "A beautiful lilac blossom cotton dress for girls, perfect for party wear and festive occasions.",
+      "price": 1599,
+      "mrp": 2999,
+      "discount": 0,
+      "fabric": "Cotton Blend",
+      "occasion": "Festive Wear",
+      "stock_quantity": 20,
+      "low_stock_threshold": 5,
+      "is_bestseller": 0,
+      "is_new_arrival": 0,
+      "is_sale": 0,
+      "status": "active",
+      "created_at": "2026-08-19T19:06:05.597Z"
+    }
+  ],
+  "product_images": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+      "is_primary": 1
+    },
+    {
+      "id": 2,
+      "product_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80",
+      "is_primary": 0
+    },
+    {
+      "id": 3,
+      "product_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1608748010899-18f300247112?auto=format&fit=crop&w=800&q=80",
+      "is_primary": 1
+    },
+    {
+      "id": 4,
+      "product_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=800&q=80",
+      "is_primary": 1
+    },
+    {
+      "id": 5,
+      "product_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=800&q=80",
+      "is_primary": 1
+    },
+    {
+      "id": 6,
+      "product_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=800&q=80",
+      "is_primary": 1
+    },
+    {
+      "id": 7,
+      "product_id": 6,
+      "image_url": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=800&q=80",
+      "is_primary": 1
+    },
+    {
+      "id": 8,
+      "product_id": 7,
+      "image_url": "https://images.unsplash.com/photo-1621452773781-0f992fd1f5cb?auto=format&fit=crop&w=600&q=80",
+      "is_primary": 1
+    }
+  ],
+  "product_variants": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "color": "Burgundy",
+      "size": "Free Size",
+      "stock_quantity": 10,
+      "sku": "FN-W-SAR-001-BUR-FS"
+    },
+    {
+      "id": 2,
+      "product_id": 2,
+      "color": "Ivory",
+      "size": "S",
+      "stock_quantity": 5,
+      "sku": "FN-W-KRT-002-IVO-S"
+    },
+    {
+      "id": 3,
+      "product_id": 2,
+      "color": "Ivory",
+      "size": "M",
+      "stock_quantity": 5,
+      "sku": "FN-W-KRT-002-IVO-M"
+    },
+    {
+      "id": 4,
+      "product_id": 2,
+      "color": "Ivory",
+      "size": "L",
+      "stock_quantity": 5,
+      "sku": "FN-W-KRT-002-IVO-L"
+    },
+    {
+      "id": 5,
+      "product_id": 2,
+      "color": "Ivory",
+      "size": "XL",
+      "stock_quantity": 7,
+      "sku": "FN-W-KRT-002-IVO-XL"
+    },
+    {
+      "id": 6,
+      "product_id": 3,
+      "color": "Champagne Gold",
+      "size": "M",
+      "stock_quantity": 4,
+      "sku": "FN-W-GWN-003-CHG-M"
+    },
+    {
+      "id": 7,
+      "product_id": 3,
+      "color": "Champagne Gold",
+      "size": "L",
+      "stock_quantity": 4,
+      "sku": "FN-W-GWN-003-CHG-L"
+    },
+    {
+      "id": 8,
+      "product_id": 4,
+      "color": "Sage Green",
+      "size": "S",
+      "stock_quantity": 1,
+      "sku": "FN-W-CRD-004-SGG-S"
+    },
+    {
+      "id": 9,
+      "product_id": 4,
+      "color": "Sage Green",
+      "size": "M",
+      "stock_quantity": 2,
+      "sku": "FN-W-CRD-004-SGG-M"
+    },
+    {
+      "id": 10,
+      "product_id": 5,
+      "color": "Peach",
+      "size": "4-5 Yrs",
+      "stock_quantity": 6,
+      "sku": "FN-K-GIR-001-PCH-45"
+    },
+    {
+      "id": 11,
+      "product_id": 5,
+      "color": "Peach",
+      "size": "6-7 Yrs",
+      "stock_quantity": 6,
+      "sku": "FN-K-GIR-001-PCH-67"
+    },
+    {
+      "id": 12,
+      "product_id": 6,
+      "color": "Royal Blue",
+      "size": "4-5 Yrs",
+      "stock_quantity": 9,
+      "sku": "FN-K-BOY-001-RBL-45"
+    },
+    {
+      "id": 13,
+      "product_id": 6,
+      "color": "Royal Blue",
+      "size": "6-7 Yrs",
+      "stock_quantity": 9,
+      "sku": "FN-K-BOY-001-RBL-67"
+    },
+    {
+      "id": 14,
+      "product_id": 7,
+      "color": "Lilac",
+      "size": "2-3Y",
+      "stock_quantity": 2,
+      "sku": "FN-K-GIR-002-LIL-2-3Y"
+    },
+    {
+      "id": 15,
+      "product_id": 7,
+      "color": "Lilac",
+      "size": "3-4Y",
+      "stock_quantity": 2,
+      "sku": "FN-K-GIR-002-LIL-3-4Y"
+    },
+    {
+      "id": 16,
+      "product_id": 7,
+      "color": "Lilac",
+      "size": "4-5Y",
+      "stock_quantity": 2,
+      "sku": "FN-K-GIR-002-LIL-4-5Y"
+    },
+    {
+      "id": 17,
+      "product_id": 7,
+      "color": "Lilac",
+      "size": "5-6Y",
+      "stock_quantity": 2,
+      "sku": "FN-K-GIR-002-LIL-5-6Y"
+    },
+    {
+      "id": 18,
+      "product_id": 7,
+      "color": "Pink",
+      "size": "2-3Y",
+      "stock_quantity": 2,
+      "sku": "FN-K-GIR-002-PIN-2-3Y"
+    },
+    {
+      "id": 19,
+      "product_id": 7,
+      "color": "Pink",
+      "size": "3-4Y",
+      "stock_quantity": 2,
+      "sku": "FN-K-GIR-002-PIN-3-4Y"
+    },
+    {
+      "id": 20,
+      "product_id": 7,
+      "color": "Pink",
+      "size": "4-5Y",
+      "stock_quantity": 2,
+      "sku": "FN-K-GIR-002-PIN-4-5Y"
+    },
+    {
+      "id": 21,
+      "product_id": 7,
+      "color": "Pink",
+      "size": "5-6Y",
+      "stock_quantity": 2,
+      "sku": "FN-K-GIR-002-PIN-5-6Y"
+    }
+  ],
+  "wishlists": [],
+  "wishlist_items": [],
+  "carts": [],
+  "cart_items": [],
+  "addresses": [],
+  "orders": [
+    {
+      "id": 1,
+      "order_number": "FN-178721803277511",
+      "user_id": 1,
+      "address_id": 1,
+      "status": "Pending",
+      "subtotal": 5198,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 259.9,
+      "grand_total": 5457.9,
+      "payment_method": "Razorpay",
+      "payment_status": "Pending",
+      "created_at": "2026-08-20T09:27:12.796Z"
+    },
+    {
+      "id": 2,
+      "order_number": "FN-1787218205393774",
+      "user_id": 1,
+      "address_id": 1,
+      "status": "Pending",
+      "subtotal": 5198,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 259.9,
+      "grand_total": 5457.9,
+      "payment_method": "Razorpay",
+      "payment_status": "Pending",
+      "created_at": "2026-08-20T09:30:05.394Z"
+    },
+    {
+      "id": 3,
+      "order_number": "FN-1787223070951229",
+      "user_id": 2,
+      "address_id": 1,
+      "status": "Pending",
+      "subtotal": 2599,
+      "discount": 0,
+      "shipping": 99,
+      "tax": 129.95,
+      "grand_total": 2827.95,
+      "payment_method": "Razorpay",
+      "payment_status": "Pending",
+      "created_at": "2026-08-20T10:51:10.951Z"
+    }
+  ],
+  "order_items": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "variant_id": 1,
+      "quantity": 2,
+      "price": 2599,
+      "created_at": "2026-08-20T09:27:12.799Z"
+    },
+    {
+      "id": 2,
+      "product_id": 1,
+      "variant_id": 1,
+      "quantity": 2,
+      "price": 2599,
+      "created_at": "2026-08-20T09:30:05.395Z"
+    },
+    {
+      "id": 3,
+      "product_id": 1,
+      "variant_id": 1,
+      "quantity": 1,
+      "price": 2599,
+      "created_at": "2026-08-20T10:51:10.954Z"
+    }
+  ],
+  "payments": [],
+  "coupons": [
+    {
+      "id": 1,
+      "code": "FASH10",
+      "type": "percentage",
+      "discount_value": 10,
+      "min_order_amount": 499,
+      "max_discount_amount": 200,
+      "start_date": "2026-01-01",
+      "expiry_date": "2026-12-31",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "code": "WELCOME300",
+      "type": "fixed",
+      "discount_value": 300,
+      "min_order_amount": 1999,
+      "max_discount_amount": 300,
+      "start_date": "2026-01-01",
+      "expiry_date": "2026-12-31",
+      "status": "active"
+    }
+  ],
+  "coupon_usage": [],
+  "reviews": [],
+  "returns": [],
+  "banners": [
+    {
+      "id": 1,
+      "title": "STYLE THAT FEELS LIKE YOU.",
+      "subtitle": "Discover contemporary women's and kids' fashion designed for every celebration, mood and moment.",
+      "image_url": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1600&q=80",
+      "link": "/shop",
+      "section": "hero",
+      "is_active": 1
+    },
+    {
+      "id": 2,
+      "title": "FESTIVE EDIT",
+      "subtitle": "FREE SHIPPING ON ORDERS ABOVE ₹3999",
+      "image_url": "",
+      "link": "",
+      "section": "announcement",
+      "is_active": 1
+    }
+  ],
+  "newsletter_subscribers": [],
+  "settings": [
+    {
+      "id": 1,
+      "key": "store_name",
+      "value": "FASHNORA"
+    },
+    {
+      "id": 2,
+      "key": "store_email",
+      "value": "support@fashnora.com"
+    },
+    {
+      "id": 3,
+      "key": "store_phone",
+      "value": "+919876543210"
+    },
+    {
+      "id": 4,
+      "key": "whatsapp_number",
+      "value": "+919876543210"
+    },
+    {
+      "id": 5,
+      "key": "store_address",
+      "value": "Fashnora HQ, Mumbai, India"
+    },
+    {
+      "id": 6,
+      "key": "gst_information",
+      "value": "27AAAAA1111A1Z1"
+    },
+    {
+      "id": 7,
+      "key": "shipping_charges",
+      "value": "99"
+    },
+    {
+      "id": 8,
+      "key": "free_shipping_threshold",
+      "value": "3999"
+    },
+    {
+      "id": 9,
+      "key": "cod_enabled",
+      "value": "1"
+    },
+    {
+      "id": 10,
+      "key": "cod_min_amount",
+      "value": "499"
+    },
+    {
+      "id": 11,
+      "key": "cod_max_amount",
+      "value": "10000"
+    },
+    {
+      "id": 12,
+      "key": "return_period_days",
+      "value": "7"
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FASHNORA — Premium Women's & Kids Fashion E-Commerce</title>
+  
+  <!-- SEO Metadata -->
+  <meta name="description" content="Discover contemporary women's and kids' fashion designed for every celebration, mood and moment. High-quality sarees, kurti sets, gowns, kids party wear, and more.">
+  <meta name="keywords" content="Fashnora, Indian wear, traditional sarees, women co-ord sets, kids western outfits, girls traditional wear, boys festive wear">
+  <meta property="og:title" content="FASHNORA — Premium Women's & Kids Fashion">
+  <meta property="og:description" content="Discover premium, high-quality contemporary and traditional fashion for women and kids.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=1600&q=80">
+  
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheets -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/admin.css">
+</head>
+<body>
+
+  <!-- 1. Announcement Bar -->
+  <div id="announcement-bar" class="announcement-bar">
+    <div class="announcement-track">
+      <span id="announcement-text">FREE SHIPPING ON ORDERS ABOVE ₹999 • SHOP NEW COLLECTION</span>
+    </div>
+  </div>
+
+  <!-- 2. Sticky Navbar -->
+  <header id="main-header" class="main-header">
+    <div class="header-container">
+      
+      <!-- Mobile Hamburger -->
+      <button id="mobile-menu-btn" class="icon-btn mobile-only" aria-label="Open Menu">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </button>
+
+      <!-- Brand Logo -->
+      <a href="/" class="brand-logo" id="logo-link">FASHNORA</a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav desktop-only">
+        <ul class="nav-links">
+          <li class="has-mega">
+            <a href="/women" class="nav-item">WOMEN</a>
+            <!-- Mega Menu -->
+            <div class="mega-menu">
+              <div class="mega-container">
+                <div class="mega-column">
+                  <h3>Suits & Sets</h3>
+                  <ul>
+                    <li><a href="/women?subcategory=women-cord-sets">Cord Sets</a></li>
+                    <li><a href="/women?subcategory=women-suits">Casual Suits</a></li>
+                    <li><a href="/women?subcategory=women-suits">Party Wear Suits</a></li>
+                    <li><a href="/women?subcategory=women-indo-western">Indo-Western Dresses</a></li>
+                    <li><a href="/women?subcategory=women-suits">Palazzo Suits</a></li>
+                  </ul>
+                </div>
+                <div class="mega-column">
+                  <h3>Sarees & Gowns</h3>
+                  <ul>
+                    <li><a href="/women?subcategory=women-sarees">Traditional Sarees</a></li>
+                    <li><a href="/women?subcategory=women-sarees">Party Wear Sarees</a></li>
+                    <li><a href="/women?subcategory=women-sarees">Cotton Sarees</a></li>
+                    <li><a href="/women?subcategory=women-kurtis">Kurtis</a></li>
+                    <li><a href="/women?subcategory=women-gowns">Party Wear Gowns</a></li>
+                  </ul>
+                </div>
+                <div class="mega-column mega-image-col">
+                  <div class="mega-promo-card">
+                    <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=400&q=80" alt="Saree Collection">
+                    <div class="promo-overlay">
+                      <h4>The Elegant Saree Edit</h4>
+                      <a href="/women?subcategory=women-sarees" class="btn-text">Shop Now &rarr;</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="has-mega">
+            <a href="/kids" class="nav-item">KIDS</a>
+            <!-- Kids Mega Menu -->
+            <div class="mega-menu">
+              <div class="mega-container">
+                <div class="mega-column">
+                  <h3>Girls Collection</h3>
+                  <ul>
+                    <li><a href="/kids?subcategory=girls-western">Western Outfits</a></li>
+                    <li><a href="/kids?subcategory=girls-cord-sets">Cord Sets</a></li>
+                    <li><a href="/kids?subcategory=girls-traditional">Traditional Wear</a></li>
+                    <li><a href="/kids?subcategory=girls-casual">Casual Wear</a></li>
+                  </ul>
+                </div>
+                <div class="mega-column">
+                  <h3>Boys Collection</h3>
+                  <ul>
+                    <li><a href="/kids?subcategory=boys-western">Western Wear</a></li>
+                    <li><a href="/kids?subcategory=boys-traditional">Traditional Wear</a></li>
+                    <li><a href="/kids?subcategory=boys-casual">Casual Wear</a></li>
+                    <li><a href="/kids?subcategory=boys-party">Party Wear</a></li>
+                  </ul>
+                </div>
+                <div class="mega-column mega-image-col">
+                  <div class="mega-promo-card">
+                    <img src="https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=400&q=80" alt="Kids Edit">
+                    <div class="promo-overlay">
+                      <h4>Playful Festive Outfits</h4>
+                      <a href="/kids" class="btn-text">Shop Kids &rarr;</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="/shop?isNewArrival=true" class="nav-item">NEW ARRIVALS</a></li>
+          <li><a href="/shop?isBestseller=true" class="nav-item">BEST SELLERS</a></li>
+          <li><a href="/shop?isSale=true" class="nav-item color-accent">SALE</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Header Controls -->
+      <div class="header-controls">
+        
+        <!-- Search bar input -->
+        <div class="header-search-container desktop-only">
+          <input type="text" id="desktop-search-input" placeholder="Search sarees, suits..." autocomplete="off">
+          <button class="search-btn" id="desktop-search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <div id="search-suggestions" class="search-suggestions hidden"></div>
+        </div>
+
+        <button id="mobile-search-btn" class="icon-btn mobile-only" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <a href="/account" id="account-btn" class="icon-btn" aria-label="Account"><i class="fa-regular fa-user"></i></a>
+        <a href="/wishlist" id="wishlist-btn" class="icon-btn" aria-label="Wishlist"><i class="fa-regular fa-heart"></i><span class="badge" id="wishlist-count">0</span></a>
+        <button id="cart-btn" class="icon-btn" aria-label="Cart"><i class="fa-solid fa-bag-shopping"></i><span class="badge" id="cart-count">0</span></button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- 3. Mobile Search Drawer / Bar -->
+  <div id="mobile-search-bar" class="mobile-search-bar hidden">
+    <div class="search-input-wrapper">
+      <input type="text" id="mobile-search-input" placeholder="Search..." autocomplete="off">
+      <button id="close-search-btn"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div id="mobile-search-suggestions" class="search-suggestions hidden"></div>
+  </div>
+
+  <!-- 4. Mobile Navigation Menu Drawer -->
+  <div id="mobile-menu-drawer" class="mobile-menu-drawer">
+    <div class="drawer-header">
+      <span class="drawer-title">FASHNORA</span>
+      <button id="close-menu-btn" class="icon-btn" aria-label="Close Menu"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="drawer-content">
+      <ul class="mobile-links">
+        <li class="mobile-dropdown">
+          <div class="dropdown-header">WOMEN <i class="fa-solid fa-chevron-down"></i></div>
+          <ul class="dropdown-submenu">
+            <li><a href="/women?subcategory=women-cord-sets">Cord Sets</a></li>
+            <li><a href="/women?subcategory=women-suits">Suits</a></li>
+            <li><a href="/women?subcategory=women-indo-western">Indo-Western</a></li>
+            <li><a href="/women?subcategory=women-kurtis">Kurtis</a></li>
+            <li><a href="/women?subcategory=women-gowns">Gowns</a></li>
+            <li><a href="/women?subcategory=women-sarees">Sarees</a></li>
+          </ul>
+        </li>
+        <li class="mobile-dropdown">
+          <div class="dropdown-header">KIDS <i class="fa-solid fa-chevron-down"></i></div>
+          <ul class="dropdown-submenu">
+            <li><a href="/kids?subcategory=kids-girls">Girls Collection</a></li>
+            <li><a href="/kids?subcategory=kids-boys">Boys Collection</a></li>
+          </ul>
+        </li>
+        <li><a href="/shop?isNewArrival=true">NEW ARRIVALS</a></li>
+        <li><a href="/shop?isBestseller=true">BEST SELLERS</a></li>
+        <li><a href="/shop?isSale=true">SALE</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 5. Cart Drawer -->
+  <div id="cart-drawer-overlay" class="drawer-overlay"></div>
+  <div id="cart-drawer" class="cart-drawer">
+    <div class="drawer-header">
+      <span class="drawer-title">YOUR BAG</span>
+      <button id="close-cart-btn" class="icon-btn"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="drawer-content">
+      <div id="free-shipping-progress" class="free-shipping-progress">
+        <p id="free-shipping-message"></p>
+        <div class="progress-bar-container"><div id="progress-bar-fill" class="progress-bar-fill"></div></div>
+      </div>
+      <div id="cart-drawer-items" class="cart-drawer-items">
+        <!-- items dynamically inserted here -->
+      </div>
+    </div>
+    <div class="drawer-footer">
+      <div class="summary-line">
+        <span>Subtotal</span>
+        <span id="cart-drawer-subtotal">₹0.00</span>
+      </div>
+      <p class="tax-info">Shipping & taxes calculated at checkout</p>
+      <a href="/checkout" class="btn btn-primary btn-block" id="checkout-drawer-btn">PROCEED TO CHECKOUT</a>
+      <a href="/cart" class="btn btn-outline btn-block text-center mt-2">VIEW FULL BAG</a>
+    </div>
+  </div>
+
+  <!-- 6. Main Application Shell -->
+  <main id="app" class="main-app">
+    <!-- View content loaded dynamically via JS router -->
+    <div class="skeleton-loader-container text-center py-5">
+      <div class="spinner"></div>
+      <p class="mt-3">Loading Fashnora Edit...</p>
+    </div>
+  </main>
+
+  <!-- 7. Quick View Modal -->
+  <div id="quickview-modal" class="modal-overlay hidden">
+    <div class="modal-container quickview-container">
+      <button class="modal-close" id="close-quickview-btn"><i class="fa-solid fa-xmark"></i></button>
+      <div class="quickview-grid" id="quickview-modal-content">
+        <!-- Dynamically filled -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 8. Size Chart Modal -->
+  <div id="size-chart-modal" class="modal-overlay hidden">
+    <div class="modal-container size-chart-container">
+      <button class="modal-close" id="close-size-chart-btn"><i class="fa-solid fa-xmark"></i></button>
+      <h3 class="modal-title font-serif">Size Guide</h3>
+      <div class="tabs-header mt-3">
+        <button class="tab-btn active" data-tab="women-sizes">Women</button>
+        <button class="tab-btn" data-tab="kids-sizes">Kids</button>
+      </div>
+      <div class="tab-content active" id="women-sizes">
+        <table class="size-table">
+          <thead><tr><th>Size</th><th>Bust (in)</th><th>Waist (in)</th><th>Hips (in)</th></tr></thead>
+          <tbody>
+            <tr><td>XS</td><td>32</td><td>26</td><td>36</td></tr>
+            <tr><td>S</td><td>34</td><td>28</td><td>38</td></tr>
+            <tr><td>M</td><td>36</td><td>30</td><td>40</td></tr>
+            <tr><td>L</td><td>38</td><td>32</td><td>42</td></tr>
+            <tr><td>XL</td><td>40</td><td>34</td><td>44</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-content" id="kids-sizes">
+        <table class="size-table">
+          <thead><tr><th>Age / Size</th><th>Height (in)</th><th>Chest (in)</th></tr></thead>
+          <tbody>
+            <tr><td>2-3 Yrs</td><td>35-38</td><td>21-22</td></tr>
+            <tr><td>4-5 Yrs</td><td>41-43</td><td>23-24</td></tr>
+            <tr><td>6-7 Yrs</td><td>46-48</td><td>25-26</td></tr>
+            <tr><td>8-9 Yrs</td><td>50-53</td><td>27-28</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- 9. Toast Notifications popup -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- 10. Sticky Bottom Navigation (Mobile Only) -->
+  <div id="mobile-sticky-nav" class="mobile-sticky-nav mobile-only">
+    <a href="/" class="bottom-nav-item active"><i class="fa-solid fa-house"></i><span>Home</span></a>
+    <a href="/shop" class="bottom-nav-item"><i class="fa-solid fa-magnifying-glass"></i><span>Explore</span></a>
+    <button id="mobile-cart-toggle" class="bottom-nav-item"><i class="fa-solid fa-bag-shopping"></i><span>Bag</span></button>
+    <a href="/wishlist" class="bottom-nav-item"><i class="fa-regular fa-heart"></i><span>Wishlist</span></a>
+    <a href="/account" class="bottom-nav-item"><i class="fa-regular fa-user"></i><span>Profile</span></a>
+  </div>
+
+  <!-- 11. Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h2 class="brand-logo footer-logo">FASHNORA</h2>
+        <p class="footer-tagline">Fashion for every moment. Elegant, contemporary Indian designs curated for celebrations and everyday style.</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/fashnorastudio/" target="_blank" aria-label="Fashnora on Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/" target="_blank" aria-label="Fashnora on Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://wa.me/919004030555" target="_blank" aria-label="WhatsApp Fashnora"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <p style="margin-top:0.75rem; font-size:0.8rem; color:#9a7a7a;">
+          <i class="fa-brands fa-whatsapp" style="color:#25D366;"></i>
+          <a href="https://wa.me/919004030555" target="_blank" style="color:#9a7a7a; text-decoration:underline;">+91 90040 30555</a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="/women">Women's Edit</a></li>
+          <li><a href="/kids">Kids Collection</a></li>
+          <li><a href="/shop?isNewArrival=true">New Arrivals</a></li>
+          <li><a href="/shop?isBestseller=true">Best Sellers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Customer Care</h4>
+        <ul>
+          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="/faq">FAQ</a></li>
+          <li><a href="/shipping-policy">Shipping Policy</a></li>
+          <li><a href="/returns-refunds">Returns & Refunds</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Newsletter</h4>
+        <p class="footer-tagline">Join the Fashnora list for exclusive updates, collections and private access.</p>
+        <form id="newsletter-form" class="newsletter-form mt-2">
+          <input type="email" placeholder="Your email address" required>
+          <button type="submit">JOIN</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 FASHNORA. All Rights Reserved.</p>
+      <div class="payment-methods-icons">
+        <i class="fa-brands fa-cc-visa"></i>
+        <i class="fa-brands fa-cc-mastercard"></i>
+        <i class="fa-brands fa-cc-stripe"></i>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Razorpay Checkout library -->
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+  <!-- Modular Scripts -->
+  <script src="/js/store.js"></script>
+  <script src="/js/components.js"></script>
+  <script src="/js/pages.js"></script>
+  <script src="/js/admin.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
