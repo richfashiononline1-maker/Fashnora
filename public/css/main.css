@@ -937,6 +937,12 @@ h1, h2, h3, h4 {
   gap: 3rem;
 }
 
+.cart-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+}
+
 .address-form-grid {
   margin-top: 1.5rem;
   display: grid;
@@ -952,7 +958,7 @@ h1, h2, h3, h4 {
   .shop-layout {
     grid-template-columns: 1fr;
   }
-  .checkout-layout {
+  .checkout-layout, .cart-layout {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }

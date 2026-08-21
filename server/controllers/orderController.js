@@ -18,10 +18,10 @@ try {
 }
 
 const createOrder = async (req, res) => {
-  const { items, address_id, coupon_code, payment_method } = req.body;
+  const { items, address, address_id: provided_address_id, coupon_code, payment_method } = req.body;
   const user_id = req.user.id;
 
-  if (!items || items.length === 0 || !address_id || !payment_method) {
+  if (!items || items.length === 0 || (!address && !provided_address_id) || !payment_method) {
     return res.status(400).json({ message: 'Missing order details.' });
   }
 
@@ -32,6 +32,21 @@ const createOrder = async (req, res) => {
 
     const mock = db.isMock();
     const data = mock ? db.getMockData() : null;
+    
+    let address_id = provided_address_id;
+    if (!address_id && address) {
+      if (mock) {
+        address_id = Math.floor(Math.random() * 1000) + 100;
+        data.addresses = data.addresses || [];
+        data.addresses.push({ id: address_id, user_id, ...address });
+      } else {
+        const addressRes = await db.query(
+          'INSERT INTO addresses (user_id, name, phone, flat_house, city, state, pincode) VALUES (?, ?, ?, ?, ?, ?, ?)',
+          [user_id, address.name, address.phone, address.flat, address.city, address.state, address.pincode]
+        );
+        address_id = addressRes.insertId;
+      }
+    }
 
     for (const item of items) {
       let product = null;

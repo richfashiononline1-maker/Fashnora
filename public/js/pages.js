@@ -527,7 +527,7 @@ const pages = {
         <div class="container py-5">
           <h1 class="font-serif mb-4" style="font-size: 2.2rem; color:var(--color-primary);">Shopping Bag</h1>
           
-          <div style="display:grid; grid-template-columns: 2fr 1fr; gap:3rem;">
+          <div class="cart-layout">
             
             <!-- Items -->
             <div>
@@ -771,7 +771,9 @@ const pages = {
                 variant_id: item.variant_id,
                 quantity: item.quantity
               })),
-              address_id: 1, // simulated default address
+              address: {
+                name, phone, flat, city, state, pincode
+              },
               coupon_code: couponCode,
               payment_method: paymentMethod
             }, true);
