@@ -180,7 +180,7 @@ const pages = {
 
     app.innerHTML = `
       <div class="container py-5">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 2rem;">
+        <div class="shop-header">
           <h1 class="font-serif" style="text-transform:uppercase; font-size:2rem; color:var(--color-primary);">${gender === 'all' ? 'All collections' : `${gender}'s Edit`}</h1>
           <div>
             <select id="shop-sort" class="admin-form-select" style="width:200px;">
@@ -193,7 +193,7 @@ const pages = {
           </div>
         </div>
 
-        <div style="display:grid; grid-template-columns: 240px 1fr; gap: 3rem;">
+        <div class="shop-layout">
           
           <!-- Sidebar Filters -->
           <aside class="desktop-only" style="border-right: 1px solid #f1efea; padding-right:1.5rem;">
@@ -621,7 +621,7 @@ const pages = {
         <div class="container py-5">
           <h1 class="font-serif mb-4" style="font-size:2rem; color:var(--color-primary);">Secure Checkout</h1>
           
-          <div style="display:grid; grid-template-columns: 1.8fr 1.2fr; gap:3rem;">
+          <div class="checkout-layout">
             
             <div>
               <!-- Address Section -->
@@ -630,10 +630,10 @@ const pages = {
                 <div id="checkout-address-list">
                   <p class="text-muted" style="font-size:0.85rem;">Please configure shipping details below</p>
                 </div>
-                <div style="margin-top:1.5rem; display:grid; grid-template-columns: 1fr 1fr; gap:1rem;" id="address-form-container">
+                <div class="address-form-grid" id="address-form-container">
                   <input type="text" id="ship-name" placeholder="Full Name" class="admin-form-input">
                   <input type="text" id="ship-phone" placeholder="Phone Number" class="admin-form-input">
-                  <input type="text" id="ship-flat" placeholder="Flat / House / Suite" class="admin-form-input" style="grid-column: span 2;">
+                  <input type="text" id="ship-flat" placeholder="Flat / House / Suite" class="admin-form-input full-width">
                   <input type="text" id="ship-city" placeholder="City" class="admin-form-input">
                   <input type="text" id="ship-state" placeholder="State" class="admin-form-input">
                   <input type="text" id="ship-pincode" placeholder="Pincode (6 digits)" class="admin-form-input">

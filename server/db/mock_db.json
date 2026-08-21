@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Fashnora Admin",
       "email": "admin@fashnora.com",
-      "password_hash": "$2a$10$V33LUuSzCJtjt9buK9G1DO7jH6VpVWSgIspBIXV4amJwA/OFLmNiC",
+      "password_hash": "$2a$10$fkLxJYQUoOhrcx.wPQySC.g2rIzEj3/x7TotZ5cyBfxg9PMSrrHVC",
       "role": "admin",
       "phone": "+919999999999",
       "status": "active",
